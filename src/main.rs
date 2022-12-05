@@ -2,6 +2,7 @@ mod day1;
 mod day2;
 mod day3;
 mod day4;
+mod day5;
 
 fn main()  {
     let answer1 = day1::solve();
@@ -15,4 +16,7 @@ fn main()  {
 
     let answer4 = day4::solve();
     println!("answer to day 4: {}", answer4);
+
+    let answer5 = day5::solve();
+    println!("answer to day 5: {}", answer5);
 }
